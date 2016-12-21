@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- start of head tag -->
+<head>
+    <meta charset="UTF-8">
+    <title>Real Estate</title>
+   	<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<![endif]-->
+        <!-- Main CSS file -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/owl.carousel.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <link rel="stylesheet" href="css/bootstrap-select.css">
+        <!-- JS -->
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<!--<script type="text/javascript" src="js/jquery-1.12.3.js"></script>--><!-- jQuery -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/bootstrap-select.js"></script>
+        <!--<script type="text/javascript" src="js/typehead.js"></script>-->
+        
+        
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/animate.css/3.1.0/animate.css">
+            <style type="text/css">
+        .os-animation{
+            opacity: 0;
+        }  
+        .os-animation.animated{
+            opacity: 1;
+        }   
+    </style>
+    
+    
+</head>
+<!-- end of head tag -->
+<!-- starting body -->
+<body class="">
+<header>
+	<!--<div id="header-top">
+	</div>-->
+	
+	<div class="header-top-bar navbar-fixed-top">
+		<div class="container myhomes-block">
+			<div class="row">
+			<div class="logo col-sm-5">
+				<ul class="list-inline">
+					<li><a href="#"><img src="images/logo.png" class="img-responsive" alt="My Homes logo" /></a></li>
+					<li>
+						<div class="dropdown location">
+  							<a class="dropdown-toggle" data-toggle="dropdown">Location<b class="caret"></b></a>
+  								<ul class="dropdown-menu">
+    								<li><a href="#">Ahmedabad</a></li>
+    								<li><a href="#">Bangalore</a></li>
+    								<li><a href="#">Chennai</a></li>
+    								<li><a href="#">Hyderabad</a></li>
+    								<li><a href="#">Mumbai</a></li>
+  								</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-7">
+				<div class="text-center pull-right menu-icon">
+						<a href="#"><i class="fa fa-bars"></i><br>Menu</a>
+				</div>
+				<ul class="list-inline pull-right menu-items">
+					<li>
+						<div class="dropdown properties">
+  							<a class="dropdown-toggle" data-toggle="dropdown">Properties<b class="caret"></b></a>
+  								<ul class="dropdown-menu">
+    								<li><a href="file:///Users/amin/Desktop/realestate-html/category.html">All</a></li>
+    								<li><a href="#">Apartment</a></li>
+    								<li><a href="#">Condominium</a></li>
+    								<li><a href="#">Estate</a></li>
+    								<li><a href="#">Independent House</a></li>
+    								<li><a href="#">Villa</a></li>
+  								</ul>
+						</div>
+					</li>
+					<li><a href="#">Blog</a></li>
+    				<li><a href="#">Deals</a></li>
+					<li class="text-center">
+						<a href="#"><i class="fa fa-user"></i><br>Login</a>
+					</li>
+					
+				</ul>
+			</div>
+			</div><!--row closed-->
+		</div>
+		<!--container closed-->
+	</div>
+	<!--header-top-bar closed-->
+	
+	<div class="slider">
+	 
+	
+	 <div class="item">  
+	   <div class="slider1-search-container">
+		
+		<h1 class="slider1-title">Let's Begin Your Story In Your Dream House</h1>
+		
+		<div class="slider1-search">
+  			<ul class="nav nav-tabs search-tabs">
+    			<li class="active"><a data-toggle="tab" href="#tab1">Sale</a></li>
+    			<li><a data-toggle="tab" href="#tab2">Rent</a></li>
+    			<li><a data-toggle="tab" href="#tab3">Project</a></li>
+    			<li><a data-toggle="tab" href="#tab4">Dealers</a></li>
+  			</ul>
+
+  			<div class="tab-content search-tab-content">
+    			<div id="tab1" class="tab-pane fade in active">
+    			
+    				<form class="form-inline" role="form">
+    					<!--<input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false">-->
+    					<div class="form-group search-form">
+    					<input type = "text" class = "form-control location-input" placeholder = "Enter City or Location Keyword" >
+    					
+          				<select class="selectpicker property-select" multiple  >
+            					<optgroup label="RESIDENTIAL">
+              						<option>Flat</option>
+              						<option>House/Villa</option>
+              						<option>Plot</option>
+            					</optgroup>
+            					<optgroup label="COMMERCIAL">
+              						<option>Office Space</option>
+              						<option>Shop/Showroom</option>
+              						<option>Commercial Land</option>
+              						<option>Warehouse/Godown</option>
+              						<option>Industrial Building</option>
+              						<option>Industrial Shed</option>
+            					</optgroup>
+            					<optgroup label="OTHERS">
+              						<option>Agricultural Land</option>
+              						<option>Farm House</option>
+            					</optgroup>
+          				</select>
+        				
+        				<select id="first-disabled2" class="selectpicker"  data-hide-disabled="true" data-size="5">
+    						<option>5Lacs-10Lacs</option>
+    						<option>10Lacs-20Lacs</option>
+    						<option>20Lacs-30Lacs</option>
+    						<option>30Lacs-40Lacs</option>
+    						<option>40Lacs-50Lacs</option>
+    						<option>50Lacs-60Lacs</option>
+    						<option>60Lacs-70Lacs</option>
+    						<option>70Lacs-80Lacs</option>
+    						<option>80Lacs-90Lacs</option>
+    						<option>90Lacs-1Cr</option>
+    						<option>1Cr-2Cr</option>
+    						<option>2Cr-3Cr</option>
+  						</select>
+  						
+  						<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search</button>
+  						</div>
+    				</form>
+    				
+    				
+    			</div><!--id="tab1" closed-->
+    			
+					<!--<script type="text/javascript">
+						$(document).ready(function(){
+							alert('hello');
+							$('input.typeahead').typeahead({
+							name: 'accounts',
+							local: ['Audi', 'BMW', 'Bugatti', 'Ferrari', 'Ford', 'Lamborghini', 'Mercedes Benz', 'Porsche', 'Rolls-Royce', 'Volkswagen']
+							});
+						});  
+						</script>-->
+
+
+    			<div id="tab2" class="tab-pane fade">
+
+      				<form class="form-inline" role="form">
+    					<!--<input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false">-->
+    					<div class="form-group search-form">
+    					<input type = "text" class = "form-control location-input" placeholder = "Enter City or Location Keyword">
+    					
+          				<select class="selectpicker property-select" multiple  >
+            					<optgroup label="RESIDENTIAL">
+              						<option>Flat</option>
+              						<option>House/Villa</option>
+              						<option>Plot</option>
+            					</optgroup>
+            					<optgroup label="COMMERCIAL">
+              						<option>Office Space</option>
+              						<option>Shop/Showroom</option>
+              						<option>Commercial Land</option>
+              						<option>Warehouse/Godown</option>
+              						<option>Industrial Building</option>
+              						<option>Industrial Shed</option>
+            					</optgroup>
+            					<optgroup label="OTHERS">
+              						<option>Agricultural Land</option>
+              						<option>Farm House</option>
+            					</optgroup>
+          				</select>
+        				
+        				<select id="first-disabled2" class="selectpicker"  data-hide-disabled="true" data-size="5">
+    						<option>5Lacs-10Lacs</option>
+    						<option>10Lacs-20Lacs</option>
+    						<option>20Lacs-30Lacs</option>
+    						<option>30Lacs-40Lacs</option>
+    						<option>40Lacs-50Lacs</option>
+    						<option>50Lacs-60Lacs</option>
+    						<option>60Lacs-70Lacs</option>
+    						<option>70Lacs-80Lacs</option>
+    						<option>80Lacs-90Lacs</option>
+    						<option>90Lacs-1Cr</option>
+    						<option>1Cr-2Cr</option>
+    						<option>2Cr-3Cr</option>
+  						</select>
+  						
+  						<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search</button>
+  						</div>
+    				</form>
+    				
+    			</div><!--id="tab2" closed-->
+    			
+    			<div id="tab3" class="tab-pane fade">
+      			
+      				<form class="form-inline" role="form">
+    					<!--<input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false">-->
+    					<!--<div class="form-group search-form">
+    					
+    					<input type = "text" class = "form-control project-location-input" placeholder = "Enter City or Location , Project Keyword" size="95">
+  						<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search</button>
+  						
+  						</div>-->
+  						<div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for keywords" size="95">
+                                    <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="button"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search</button>
+                                    </span>
+                                </div>
+    				</form>
+    				
+    			</div>
+    			<div id="tab4" class="tab-pane fade">
+      			
+      				<form class="form-inline" role="form">
+    					<!--<input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false">-->
+    					<div class="form-group search-form">
+    					<input type = "text" class = "form-control location-input" placeholder = "Enter City or Location Keyword" size="49">
+    				
+        				<select id="first-disabled2" class="selectpicker" data-hide-disabled="true">
+    						<option>Buy</option>
+    						<option>Rent</option>
+    						<option>P.G.</option>
+  						</select>
+  						
+  						<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search</button>
+  						</div>
+    				</form>
+    				
+    			</div>
+  			</div><!--tab content closed-->
+		</div>
+				
+	    </div>
+	<img src="images/slider1.jpg" class="img-responsive banner" alt="Banner" />
+	</div>
+	
+	<div class="item">  
+	   <div class="slider1-search-container">
+		
+		<h1 class="slider1-title">Let's Begin Your Story In Your Dream House</h1>
+		
+		<div class="slider1-search">
+  			<ul class="nav nav-tabs search-tabs">
+    			<li class="active"><a data-toggle="tab" href="#tab1">Sale</a></li>
+    			<li><a data-toggle="tab" href="#tab2">Rent</a></li>
+    			<li><a data-toggle="tab" href="#tab3">Project</a></li>
+    			<li><a data-toggle="tab" href="#tab4">Dealers</a></li>
+  			</ul>
+
+  			<div class="tab-content search-tab-content">
+    			<div id="tab1" class="tab-pane fade in active">
+    			
+    				<form class="form-inline" role="form">
+    					<!--<input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false">-->
+    					<div class="form-group search-form">
+    					<input type = "text" class = "form-control location-input" placeholder = "Enter City or Location Keyword">
+    					
+          				<select class="selectpicker property-select" multiple  >
+            					<optgroup label="RESIDENTIAL">
+              						<option>Flat</option>
+              						<option>House/Villa</option>
+              						<option>Plot</option>
+            					</optgroup>
+            					<optgroup label="COMMERCIAL">
+              						<option>Office Space</option>
+              						<option>Shop/Showroom</option>
+              						<option>Commercial Land</option>
+              						<option>Warehouse/Godown</option>
+              						<option>Industrial Building</option>
+              						<option>Industrial Shed</option>
+            					</optgroup>
+            					<optgroup label="OTHERS">
+              						<option>Agricultural Land</option>
+              						<option>Farm House</option>
+            					</optgroup>
+          				</select>
+        				
+        				<select id="first-disabled2" class="selectpicker"  data-hide-disabled="true" data-size="5">
+    						<option>5Lacs-10Lacs</option>
+    						<option>10Lacs-20Lacs</option>
+    						<option>20Lacs-30Lacs</option>
+    						<option>30Lacs-40Lacs</option>
+    						<option>40Lacs-50Lacs</option>
+    						<option>50Lacs-60Lacs</option>
+    						<option>60Lacs-70Lacs</option>
+    						<option>70Lacs-80Lacs</option>
+    						<option>80Lacs-90Lacs</option>
+    						<option>90Lacs-1Cr</option>
+    						<option>1Cr-2Cr</option>
+    						<option>2Cr-3Cr</option>
+  						</select>
+  						
+  						<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search</button>
+  						</div>
+    				</form>
+    				
+    				
+    			</div><!--id="tab1" closed-->
+    			
+					<!--<script type="text/javascript">
+						$(document).ready(function(){
+							alert('hello');
+							$('input.typeahead').typeahead({
+							name: 'accounts',
+							local: ['Audi', 'BMW', 'Bugatti', 'Ferrari', 'Ford', 'Lamborghini', 'Mercedes Benz', 'Porsche', 'Rolls-Royce', 'Volkswagen']
+							});
+						});  
+						</script>-->
+
+
+    			<div id="tab2" class="tab-pane fade">
+
+      				<form class="form-inline" role="form">
+    					<!--<input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false">-->
+    					<div class="form-group search-form">
+    					<input type = "text" class = "form-control location-input" placeholder = "Enter City or Location Keyword">
+    					
+          				<select class="selectpicker property-select" multiple  >
+            					<optgroup label="RESIDENTIAL">
+              						<option>Flat</option>
+              						<option>House/Villa</option>
+              						<option>Plot</option>
+            					</optgroup>
+            					<optgroup label="COMMERCIAL">
+              						<option>Office Space</option>
+              						<option>Shop/Showroom</option>
+              						<option>Commercial Land</option>
+              						<option>Warehouse/Godown</option>
+              						<option>Industrial Building</option>
+              						<option>Industrial Shed</option>
+            					</optgroup>
+            					<optgroup label="OTHERS">
+              						<option>Agricultural Land</option>
+              						<option>Farm House</option>
+            					</optgroup>
+          				</select>
+        				
+        				<select id="first-disabled2" class="selectpicker"  data-hide-disabled="true" data-size="5">
+    						<option>5Lacs-10Lacs</option>
+    						<option>10Lacs-20Lacs</option>
+    						<option>20Lacs-30Lacs</option>
+    						<option>30Lacs-40Lacs</option>
+    						<option>40Lacs-50Lacs</option>
+    						<option>50Lacs-60Lacs</option>
+    						<option>60Lacs-70Lacs</option>
+    						<option>70Lacs-80Lacs</option>
+    						<option>80Lacs-90Lacs</option>
+    						<option>90Lacs-1Cr</option>
+    						<option>1Cr-2Cr</option>
+    						<option>2Cr-3Cr</option>
+  						</select>
+  						
+  						<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search</button>
+  						</div>
+    				</form>
+    				
+    			</div><!--id="tab2" closed-->
+    			
+    			<div id="tab3" class="tab-pane fade">
+      			
+      				<form class="form-inline" role="form">
+    					<!--<input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false">-->
+    					<!--<div class="form-group search-form">
+    					
+    					<input type = "text" class = "form-control project-location-input" placeholder = "Enter City or Location , Project Keyword" size="95">
+  						<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search</button>
+  						
+  						</div>-->
+  						<div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for keywords">
+                                    <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="button"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search</button>
+                                    </span>
+                                </div>
+    				</form>
+    				
+    			</div>
+    			<div id="tab4" class="tab-pane fade">
+      			
+      				<form class="form-inline" role="form">
+    					<!--<input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false">-->
+    					<div class="form-group search-form">
+    					<input type = "text" class = "form-control location-input" placeholder = "Enter City or Location Keyword" size="59">
+    				
+        				<select id="first-disabled2" class="selectpicker" data-hide-disabled="true">
+    						<option>Buy</option>
+    						<option>Rent</option>
+    						<option>P.G.</option>
+  						</select>
+  						
+  						<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search</button>
+  						</div>
+    				</form>
+    				
+    			</div>
+  			</div><!--tab content closed-->
+		</div>
+				
+	    </div>
+	<img src="images/slider1.jpg" class="img-responsive banner" alt="Banner" />
+	</div>
+ </div>
+</header>
+<!-- HEADER-->
+
+<!-- PROPERTY NEWS STARTS -->
+<div class="services">
+<div class="container text-center myhomes-block">
+  <h2>Property News</h2>
+  <div class="row content-block">
+    <div class="col-sm-2">
+      	<a><img src="images/quick-search.png" class="img-responsive center-block" alt="Quick Search"/></a>
+      	<h4><a>Quick Search</a></h4>
+    </div>
+    <div class="col-sm-2">
+      	<a><img src="images/deals-sale.png" class="img-responsive center-block" alt="Deals for Sale" /></a>
+      	<h4><a>Deals for Sale</a></h4>
+    </div>
+    <div class="col-sm-2">
+      	<a><img src="images/rent.png" class="img-responsive center-block" alt="Rent Properties" /></a>
+      	<h4><a>Rent Properties</a></h4>
+    </div>
+    <div class="col-sm-2">
+      	<a><img src="images/best-deals.png" class="img-responsive center-block" alt="Best Deals" /></a>
+      	<h4><a>Best Deals</a></h4>
+    </div>
+    <div class="col-sm-2">
+      	<a><img src="images/compare-price.png" class="img-responsive center-block" alt="Compare price" /></a>
+      	<h4><a>Compare Price</a></h4>
+    </div>
+    <div class="col-sm-2">
+      	<a><img src="images/property-index.png" class="img-responsive center-block" alt="Property index" /></a>
+      	<h4><a>Property Index</a></h4>
+    </div>
+  </div>
+</div>
+</div>
+<!-- PROPERTY NEWS CLOSED -->
+
+<!-- DEALS FOR SALE STARTS -->
+<div class="products-sale">
+	<div class="container text-center myhomes-block">
+		<h2>Deals For Sale</h2>
+        <ul class="row content-block">
+        	<!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">SALE</span>
+                	<h2>₹35 Lacs</h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					<!--<img src="images/glyphicons-514-bath-bathtub.png" height="15px" color="#666666" />-->
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+            <!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">SALE</span>
+                	<h2>₹45 Lacs</h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+            <!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">SALE</span>
+                	<h2>₹43 Lacs</h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+        	<!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">SALE</span>
+                	<h2>₹38 Lacs</h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+            <!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">SALE</span>
+                	<h2>₹40 Lacs</h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+            <!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">SALE</span>
+                	<h2>₹37 Lacs</h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+        </ul>
+        <!-- ROW / CONTENT BLOCK CLOSED -->
+    </div>
+</div>
+
+<!-- DEALS FOR SALE CLOSED -->
+
+<!-- DEALS FOR RENT STARTS -->
+<div class="products-rent" style="background:#f6fefe;">
+	<div class="container text-center myhomes-block">
+		<h2>Deals For Rent</h2>
+        <ul class="row content-block">
+        	<!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">RENT</span>
+                	<h2>₹15,000 <small>/m</small></h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+            <!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">RENT</span>
+                	<h2>₹15,000 <small>/m</small></h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+            <!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">RENT</span>
+                	<h2>₹15,000 <small>/m</small></h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+        	<!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">RENT</span>
+                	<h2>₹15,000 <small>/m</small></h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+            <!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">RENT</span>
+                	<h2>₹15,000 <small>/m</small></h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+            <!-- PRODUCT COLUMN OPENED -->
+            <li class="col-sm-4">
+            	<div class="product-item">
+                	<img src="images/luxury-homes.jpg" class="img-responsive">
+                	<span class="sale-tag">RENT</span>
+                	<h2>₹15,000 <small>/m</small></h2>
+                	<span class="hr-line"><hr></span>
+                	<h3 class="item-title">Luxury Homes</h3>
+                	<h6>Lorem Ipsum dolor, Ahmedabad.</h6>
+                	<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">Buy</button>
+                		<div class="clearfix"></div>
+                	</div>
+                </div>
+            </li>
+            <!-- PRODUCT COLUMN CLOSED -->
+        </ul>
+        <!-- ROW / CONTENT BLOCK CLOSED -->
+    </div>
+</div>
+
+<!-- DEALS FOR RENT CLOSED -->
+<!-- TODAYS HOT OFFER STARTS -->
+<div class="hot-offer">
+	<h2 class="text-center">Today's Hot Offer</h2>
+	<div class="container myhomes-block">
+		<div class="content-offer">
+			<div class="col-md-7 offer-product-image">
+					<img src="images/offer.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-5 offer-product-details">
+        			<h2 class="product-title">Classic Home</h2>
+        			<h6>Street Lane-3, New City, New Colony,<br>
+        				Lorem Ipsum, Ahmedabad.
+        			</h6>
+        			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+        			<div class="price">
+        				<ul class="list-inline">
+        					<li>
+        						<span class="pull-left">Current<br>Price</span>
+        						<h3 class="pull-right">₹50L</h3>
+        					</li>
+        					<li>
+        						<span class="pull-left">Our<br>Price</span>
+        						<h3 class="pull-right">₹35L</h3>
+        					</li>
+        					<li>
+        						<span class="pull-left">You<br>Save</span>
+        						<h3 class="pull-right">30.00%</h3>
+        					</li>
+        				</ul>
+        			</div>
+        			<div class="mini-details">
+                		<ul class="list-inline pull-left">
+                				<li>
+                					<i class="fa fa-arrows fa-lg"></i>
+                					600SqFt
+                				</li>
+                				<li>
+                					<i class="fa fa-bed fa-lg"></i>
+                					3
+                				</li>
+                				<li>
+                					<i class="fa fa-tint fa-lg"></i>
+                					2
+                				</li>		
+                		</ul>
+                		<button type="button" class="btn btn-primary pull-right">View Details</button>
+                		<div class="clearfix"></div>
+                	</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+    </div>
+</div>
+<!-- TODAYS HOT OFFER CLOSED -->
+
+<!-- Container (testimonials Section) -->
+<div class="testimonial-slider">
+<div class="container text-center myhomes-block">
+  <h2>Testimonials</h2>
+  <div class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+        <ul class="list-inline">
+        	<li><img src="images/test1.png" class="img-responsive" /></li>
+        	<li>
+        		<div><h5>Willaim Clister</h5>
+        		<span><em>Customer</em></span></div>
+        	</li>
+        </ul>
+      </div>
+      <div class="item">
+        <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+        <ul class="list-inline">
+        	<li><img src="images/test1.png" class="img-responsive" /></li>
+        	<li>
+        		<div><h5>Willaim Clister</h5>
+        		<span><em>Customer</em></span></div>
+        	</li>
+        </ul>
+      </div>
+      <div class="item">
+        <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+        <ul class="list-inline">
+        	<li><img src="images/test1.png" class="img-responsive" /></li>
+        	<li>
+        		<div><h5>Willaim Clister</h5>
+        		<span><em>Customer</em></span></div>
+        	</li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</div>
+</div>
+<!-- Container (testimonials Section) closed -->
+
+<!-- AGENTS STARTS -->
+<div class="block-agents">
+	<div class="container text-center myhomes-block">
+		<h2>Best Agents</h2>
+        <div class="row content-block">
+            <div class="col-sm-3 agent">
+                <div class="profile-img">
+                	<img src="images/agent1.png" class="img-responsive center-block">
+                </div>
+                <ul>
+                	<li><h4>Alex Smith</h4></li>
+                	<li>
+                		<div class="view-shares">
+                				<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+                    			<a href="#"><i class="fa fa-google-plus"></i></a>
+                 		</div>
+                 	</li>
+                </ul>
+            </div> 
+            <div class="col-sm-3 agent">
+            	<div class="profile-img">
+                	<img src="images/agent2.png" class="img-responsive center-block">
+                </div>
+                <ul>
+                	<li><h4>Jack Thomson</h4></li>
+                	<li><div class="view-shares">
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+                    			<a href="#"><i class="fa fa-google-plus"></i></a>
+                 		</div>
+                 	</li>
+                </ul>
+            </div>
+            <div class="col-sm-3 agent">
+            	<div class="profile-img">
+                	<img src="images/agent3.png" class="img-responsive center-block">
+                </div>
+                <ul>
+                	<li><h4>Sania Kaur</h4></li>
+                	<li><div class="view-shares">
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+                    			<a href="#"><i class="fa fa-google-plus"></i></a>
+                    	</div>
+                 	</li>
+                </ul>
+            </div>
+            <div class="col-sm-3 agent">
+            	<div class="profile-img">
+                	<img src="images/agent4.png" class="img-responsive center-block">
+                </div>
+                <ul>
+                	<li><h4>John Edward</h4></li>
+                	<li><div class="view-shares">
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+                    			<a href="#"><i class="fa fa-google-plus"></i></a>
+                 		</div>
+                 	</li>
+                </ul>
+            </div>
+        </div>
+        <!-- ROW / CONTENT BLOCK CLOSED -->
+    </div>
+</div>
+
+<!-- AGENTS CLOSED -->
+		
+<!-- FOOTER -->
+<footer id="footer">
+    <div class="container footer-container myhomes-block">
+        <div class="row">
+            <div class="footer-content">
+                    <div class="col-sm-3">
+                        <h2 class="footer-title">Quick Links</h2>
+                        <span class="hr-line"><hr></span>
+                        <ul>
+                        	<li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;Classic Villa</a></li>
+                            <li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;Apartment</a></li>
+                            <li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;Independent House</a></li>
+                            <li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;3BHK Flat</a></li>
+                            <li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;2BHK Flat</a></li>
+                            <li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;1BHK Flat</a></li>
+                        </ul>
+                    </div>
+                	<div class="col-sm-3">
+                        <h2 class="footer-title">Information</h2>
+                        <span class="hr-line"><hr></span>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;About Company</a></li>
+                            <li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;Registration</a></li>
+                            <li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;Payment</a></li>
+                            <li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;Private Policy</a></li>
+                            <li><span class="glyphicon glyphicon-menu-right"></span><a href=#>&nbsp;&nbsp;FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2 class="footer-title">Contacts</h2>
+                        <span class="hr-line"><hr></span>
+                        <ul class="contact-info">
+                            <li><span class="glyphicon glyphicon-map-marker"></span><a href=#>&nbsp;&nbsp;120 Street, A Block, Lorem Ipsum, Lorem Ipsum, Delhi.</a></li>
+                            <li><span class="glyphicon glyphicon-phone"></span><a>&nbsp;&nbsp;+00 1515151515</a></li>
+                            <li><span class="glyphicon glyphicon-envelope"></span><a>&nbsp;&nbsp;myemail@something.com</a></li>
+                            <li class="view-shares">
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+                    			<a href="#"><i class="fa fa-google-plus"></i></a>
+                 			</li>
+                 		</ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2 class="footer-title">News Letter</h2>
+                        <span class="hr-line"><hr></span>
+                        <ul class="newsletter-info">
+                        	<li><p>Subscribe to our Newsletter for Latest Updates</p></li>
+                        	<li><form action="" method="post" role="form">
+                    			<div class="input-group">
+                      				<span class="input-group-addon">
+                        				<i class="fa fa-envelope"></i>
+                      				</span>
+                      				<input class="form-control" size="10" type="text" id="" name="" placeholder="your@email.com">
+                    			</div>
+                    			<input type="submit" value="Subscribe" class="btn btn-primary " />
+              				</form></li>
+              			</ul>
+                    </div>
+            </div><!--footer content closed-->
+        </div><!--row closed-->
+    </div>
+    
+    <div class="footer-copyright">
+        <div class="container myhomes-block">
+            <p>Copyright&copy; 2015 <a href="">My Homes</a>. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+<!-- /FOOTER -->
+
+
+<script>
+$(document).ready(function() {
+             
+              $(".slider").owlCarousel({
+            
+                  navigation : true, // Show next and prev buttons
+                  slideSpeed : 300,
+            	  pagination : false,
+                  paginationSpeed : 400,
+            	  autoPlay: 3000, //Set AutoPlay to 3 seconds
+                  singleItem:true,
+            navigationText: [
+                  "<i class='icon-angle-left icon-white'></i>",
+                  "<i class='icon-angle-right icon-white'></i>"
+                  ],
+            
+                  // "singleItem:true" is a shortcut for:
+                  // items : 1, 
+                  // itemsDesktop : false,
+                  // itemsDesktopSmall : false,
+                  // itemsTablet: false,
+                  // itemsMobile : false
+             
+              });
+             
+});
+</script>
+            
+            
+
+</body>
+<!-- end of body -->
+</html>
